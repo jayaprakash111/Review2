@@ -1,0 +1,83 @@
+/* Reset some default styles */
+body, ul {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Set background color and text styles for the entire page */
+  body {
+    background-color: #f2f2f2;
+    font-family: Arial, sans-serif;
+    color: #333;
+  }
+  
+  /* Style the header */
+  header {
+    background-color: #333;
+    padding: 20px;
+    color: #fff;
+  }
+  
+  header h1 {
+    margin: 0;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 10px;
+  }
+  
+  /* Style the rooms section */
+  #rooms {
+    text-align: center;
+    padding: 50px 0;
+  }
+  
+  #rooms h2 {
+    margin-top: 0;
+    font-size: 36px;
+  }
+  
+  .room {
+    display: inline-block;
+    width: 300px;
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  .room img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
+  .room h3 {
+    margin: 0;
+  }
+  
+  .price {
+    color: #333;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+  }
